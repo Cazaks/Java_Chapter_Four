@@ -10,8 +10,14 @@ public class StudentGrade2 {
 	int grade = scan.nextInt();
 
 	while(grade != -1){
+	if(grade >= 0 && grade <= 100){
 	total = total + grade;
 	count = count + 1;
+	}
+	else{
+	System.out.println("Invalid grade. Please enter a grade between 0 - 100");
+	}
+
 	System.out.print("Enter student grade, enter -1 to stop: ");
 	grade = scan.nextInt();
 	}
