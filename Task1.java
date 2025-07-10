@@ -2,8 +2,8 @@
 public class Task1 {
 	public static void main(String[] args){
 
-		for(int i = 0; i <= 4; i++){
-		System.out.println("I am learning Java");
+		for(int i = 1; i <= 5; i++){
+		System.out.println(i + ". I am learning Java");
 		}				
 	}	
 }
