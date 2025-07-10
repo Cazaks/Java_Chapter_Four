@@ -8,8 +8,14 @@ Scanner scan = new Scanner(System.in);
 
 		System.out.print("How many times should I print the message? ");
 		int times = scan.nextInt();
+
+	if(times <= 0){
+	System.out.println("invalid input. Please enter a positive number");
+	}
+	else{
 		for(int i = 1; i <= times; i++){
 		System.out.println(i + ". " + message);
-		}			
+		}
+	}			
 	}	
 }
