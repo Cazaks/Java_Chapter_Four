@@ -6,7 +6,7 @@ Scanner scan = new Scanner(System.in);
 		System.out.println("What message would you like me to print? ");
 		String message = scan.nextLine();
 
-		System.out.print("How many times should I print the message? \n");
+		System.out.print("How many times should I print the message? ");
 		int times = scan.nextInt();
 
 	while(times <= 0){

@@ -24,6 +24,7 @@ public class StudentGradeExerciseTwoWhileTrueLoop {
 			}
 
 		gradeCounter += 1;
+
 		if(gradeCounter == 10){
 		break;
 		}
